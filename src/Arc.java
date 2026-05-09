@@ -12,7 +12,7 @@ public class Arc {
         this.arrivee = arrivee;
         this.capacite = capacite;
         this.cout = cout;
-        this.flot = 0; /
+        this.flot = 0; 
         this.original = original; 
     }
 

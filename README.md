@@ -25,10 +25,22 @@ java -cp out Main maxflow graph_data.txt residuel_maxflow.gv
 java -cp out Main mcf-bf graph_data.txt residuel_mcf_bf.gv
 ```
 
-### Min-cost flow avec chemins augmentants et Dijkstra + potentiels
+### Min-cost flow avec chemins augmentants et Dijkstra + normalisatin
 
 ```bash
 java -cp out Main mcf-dijkstra graph_data.txt residuel_mcf_dijkstra.gv
+```
+
+### Min-cost flow avec chemins augmentants et Dijkstra + normalisation sur un graphe à cycle négatif
+
+```bash
+java -cp out Main mcf-dijkstra graph_CycleNegatif.txt residuel_mcf_dijkstra.gv
+```
+
+### Min-cost flow avec chemins augmentants et Bellman-Ford sur un graphe à cycle négatif
+
+```bash
+java -cp out Main mcf-bf graph_CycleNegatif.txt residuel_mcf_bf.gv
 ```
 
 ## Générer le PDF Graphviz
