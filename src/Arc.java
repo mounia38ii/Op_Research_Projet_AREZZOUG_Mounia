@@ -3,8 +3,8 @@ public class Arc {
     public final int arrivee;
     public final int capacite;
     public final int cout;
-    public int flot; // quantité de flot actuellement envoyé 
-    public Arc inverse; // arc inverse dans le graphe residuel 
+    public int flot;               // quantité de flot actuellement envoyé 
+    public Arc inverse;            // arc inverse dans le graphe residuel 
     public final boolean original; // trur si c'est un arc du fichier graph_data.txt
 
     public Arc(int depart, int arrivee, int capacite, int cout, boolean original) {
